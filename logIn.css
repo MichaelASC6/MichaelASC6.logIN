@@ -1,5 +1,12 @@
 #intruder {
-    display:none;
+    display: none;
+    font-size: 35px;
+    padding: 180px 0px 180px 200px;
+    width: 900px;
+}
+
+h2 {
+    padding-left: 12px;
 }
 
 body {
@@ -33,11 +40,9 @@ button {
     padding: 5px;
 }
 
-
-
 #log_page {
     background-color: rgba(143, 202, 247, 0.4);
-    padding: 20px;
+    padding: 23px;
     border-radius: 50px;
     position: absolute;
     top: 225px;

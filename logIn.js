@@ -5,6 +5,7 @@ let passWord = document.getElementById("password_textbox");
 let button = document.querySelector("button");
 let intruder = document.getElementById("intruder");
 let h2 = document.querySelector("h2");
+let body = document.querySelector("body");
 
 button.onclick = function() {
     event.preventDefault();
@@ -21,7 +22,11 @@ button.onclick = function() {
     }
 
     else{
+        logInPage.style.display = "none";
         intruder.style.display = "block";
+        userName.value = "";
+        passWord.value = "";
+        body.style.backgroundImage= "linear-gradient(rgba(255, 255, 255, 1),rgba(255, 255, 255, 1))";
     }
 
 }
