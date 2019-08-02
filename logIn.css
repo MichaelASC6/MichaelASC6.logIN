@@ -1,3 +1,46 @@
 #intruder {
     display:none;
 }
+
+body {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-image: url("images/background.png");
+    height: 590px;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    margin: 0px 0px 40px 0px;
+    font-size: 30px;
+}
+
+#password_textbox {
+    margin-left: 16px;
+}
+
+.boxes {
+    margin-left: 10px;
+    border: 0px solid white;
+    border-radius: 10px;
+    padding: 6px;
+}
+
+button {
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+
+#log_page {
+    background-color: rgba(143, 202, 247, 0.4);
+    padding: 20px;
+    border-radius: 50px;
+    position: absolute;
+    top: 225px;
+    margin: 0px;
+    height: 200px;
+}
