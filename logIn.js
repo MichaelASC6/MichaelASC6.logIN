@@ -6,6 +6,7 @@ let button = document.querySelector("button");
 let intruder = document.getElementById("intruder");
 let h2 = document.querySelector("h2");
 let body = document.querySelector("body");
+let two = document.querySelector("br");
 
 button.onclick = function() {
     event.preventDefault();
