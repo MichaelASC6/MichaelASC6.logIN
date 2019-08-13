@@ -19,7 +19,7 @@ button.onclick = function() {
     if(userInput == correctUsername && passInput == correctPassword) {
         logInPage.style.display = "none";
         intruder.style.display = "none";
-        window.location.replace("https://michaelasc6.github.io/OG_my_website/");
+        window.location.replace("https://michaelasc6.github.io/");
     }
 
     else{
